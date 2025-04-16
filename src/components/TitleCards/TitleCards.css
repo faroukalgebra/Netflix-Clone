@@ -1,0 +1,27 @@
+.title-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align to the left */
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  
+  .title-card {
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .title-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .card-img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
